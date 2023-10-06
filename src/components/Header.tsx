@@ -1,10 +1,10 @@
 import { Josefin_Sans } from "next/font/google";
 
-const font = Josefin_Sans({ subsets: ['latin'], weight: ['300'] })
+const font = Josefin_Sans({ subsets: ['latin'], weight: ['300'] });
 
 export const Header = () => {
   return (
-    <header className="max-w-[var(--max-width)] m-auto pt-16 pb-36 pr-[72px] pl-[72px] bg-[url(../assets/images/desktop/image-hero.jpg)] bg-cover bg-no-repeat">
+    <header className="max-w-[var(--max-width)] m-auto pt-16 pb-36 pr-[var(--side-padding)] pl-[var(--side-padding)] bg-[url(../assets/images/desktop/image-hero.jpg)] bg-cover bg-no-repeat">
       <div className="flex justify-between">
         <div>
           <a href="#" aria-label="Home Page"><img src="../assets/images/logo.svg" alt="" /></a>
