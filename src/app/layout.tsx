@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Alata } from "next/font/google";
+import { Footer } from "@/components/Footer";
 
 const alata = Alata({ subsets: ["latin"], weight: ["400"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={alata.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
