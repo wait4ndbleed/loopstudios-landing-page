@@ -9,7 +9,7 @@ export const Header = () => {
         <div>
           <a href="#" aria-label="Home Page"><img src="../assets/images/logo.svg" alt="" /></a>
         </div>
-        <div className="text-white font-normal">
+        <nav className="text-white font-normal">
             <ul className="flex gap-10">
                 <li><a href="#" className="relative after:content-[''] after:absolute after:left-[50%] after:-translate-x-1/2 after:top-[150%] after:h-[3px] after:w-1/2 hover:after:bg-white">About</a></li>
                 <li><a href="#" className="relative after:content-[''] after:absolute after:left-[50%] after:-translate-x-1/2 after:top-[150%] after:h-[3px] after:w-1/2 hover:after:bg-white">Careers</a></li>
@@ -17,7 +17,7 @@ export const Header = () => {
                 <li><a href="#" className="relative after:content-[''] after:absolute after:left-[50%] after:-translate-x-1/2 after:top-[150%] after:h-[3px] after:w-1/2 hover:after:bg-white">Products</a></li>
                 <li><a href="#" className="relative after:content-[''] after:absolute after:left-[50%] after:-translate-x-1/2 after:top-[150%] after:h-[3px] after:w-1/2 hover:after:bg-white">Support</a></li>
             </ul>
-        </div>
+        </nav>
       </div>
       <div className={`${font.className} uppercase text-white text-7xl border-2 border-white w-[550px] p-8 mt-32`}>
         Immersive experiences that deliver
