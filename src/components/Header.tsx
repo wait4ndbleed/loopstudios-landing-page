@@ -19,7 +19,7 @@ export const Header = () => {
             </ul>
         </div>
       </div>
-      <div className={`${font.className} uppercase text-white text-7xl border-2 border-white w-[55%] p-8 mt-32`}>
+      <div className={`${font.className} uppercase text-white text-7xl border-2 border-white w-[550px] p-8 mt-32`}>
         Immersive experiences that deliver
       </div>
     </header>
