@@ -27,7 +27,7 @@ export const Gallery = () => {
         <div
           className={`group-hover:opacity-40 after:content-[''] after:relative after:min-h-full after:min-w-full after:bg-gradient-to-t after:from-black/30 after:top-0 after:left-0 bg-[url('../assets/images/desktop/image-soccer-team.jpg')] bg-cover h-[450px] flex flex-col justify-end cursor-pointer`}
         ></div>
-        <div className="relative uppercase px-10 py-8 text-3xl text-white group-hover:text-black -top-32 cursor-pointer">
+        <div className="relative uppercase pl-10 py-8 text-3xl text-white group-hover:text-black -top-32 cursor-pointer">
           Soccer team vr
         </div>
       </div>
@@ -43,7 +43,7 @@ export const Gallery = () => {
         <div
           className={`group-hover:opacity-40 after:content-[''] after:relative after:min-h-full after:min-w-full after:bg-gradient-to-t after:from-black/30 bg-[url('../assets/images/desktop/image-from-above.jpg')] bg-cover h-[450px] flex flex-col justify-end cursor-pointer`}
         ></div>
-        <div className="relative uppercase px-10 py-8 text-3xl text-white group-hover:text-black -top-32 cursor-pointer">
+        <div className="relative uppercase pl-10 py-8 text-3xl text-white group-hover:text-black -top-32 cursor-pointer">
           From up above vr
         </div>
       </div>
