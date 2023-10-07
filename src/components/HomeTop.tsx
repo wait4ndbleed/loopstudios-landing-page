@@ -6,7 +6,7 @@ const font = Josefin_Sans({ subsets: ["latin"], weight: ["300"] });
 export const HomeTop = () => {
   return (
     <div className="bg-[url('../assets/images/mobile/image-interactive.jpg')] md:bg-[url('../assets/images/desktop/image-interactive.jpg')] bg-contain bg-no-repeat mt-[160px] mb-28 flex justify-end">
-      <div className="md:bg-white lg:max-w-[50%] pt-24 md:pl-24 md:pr-16 mt-48 md:mt-[500px] lg:mt-48">
+      <div className="md:bg-white xl:max-w-[50%] pt-24 md:pl-24 md:pr-16 mt-48 lg:mt-[500px] sm:mt-[500px]">
         <h1
           className={`${font.className} text-3xl md:text-5xl uppercase mb-6 text-center lg:text-left`}
         >
