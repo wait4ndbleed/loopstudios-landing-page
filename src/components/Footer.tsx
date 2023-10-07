@@ -5,15 +5,15 @@ import { SvgTwitter } from "./SvgTwitter";
 
 export const Footer = () => {
   return (
-    <footer className="bg-black max-w-[var(--max-width)] m-auto py-11 px-[var(--side-padding)] flex justify-between">
+    <footer className="bg-black max-w-[var(--max-width)] m-auto py-11 px-[var(--mobile-padding)] md:px-[var(--tablet-padding)] lg:px-[var(--side-padding)] flex flex-col lg:flex-row lg:justify-between">
       <div>
-        <div className="mb-8">
+        <div className="mb-8 flex justify-center lg:justify-normal">
           <a href="#" aria-label="Home Page">
             <img src="../assets/images/logo.svg" alt="" />
           </a>
         </div>
         <nav className="text-white font-normal">
-          <ul className="flex gap-10">
+          <ul className="flex flex-col lg:flex-row items-center gap-10 mt-16">
             <li>
               <a
                 href="#"
@@ -57,8 +57,8 @@ export const Footer = () => {
           </ul>
         </nav>
       </div>
-      <div>
-        <div className="mb-8 flex justify-end gap-4">
+      <div className="flex flex-col justify-between">
+        <div className="mb-8 mt-16 lg:mt-0 flex justify-center lg:justify-end gap-4">
           <a
             href="#"
             aria-label="Facebook"
@@ -88,7 +88,7 @@ export const Footer = () => {
             <SvgInstagram />
           </a>
         </div>
-        <div className="text-[var(--dark-gray)] text-xs">
+        <div className="text-[var(--dark-gray)] text-base lg:text-xs text-center lg:text-left">
           ©️ 2021 Loopstudios. All rights reserved.
         </div>
       </div>
