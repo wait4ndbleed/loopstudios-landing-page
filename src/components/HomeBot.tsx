@@ -19,7 +19,7 @@ export const HomeBot = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-16 mb-52">
         <Gallery />
       </div>
     </div>
