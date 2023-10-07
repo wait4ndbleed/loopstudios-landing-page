@@ -71,9 +71,9 @@ export const Header = () => {
           </ul>
         </div>
         <div
-          className={`md:hidden absolute right-0 mr-5 ${
+          className={`${
             isMenuOpen && "bg-black left-0 top-0 pb-12 pr-5 mr-0"
-          }`}
+          } md:hidden absolute right-0 mr-5`}
         >
           <div className="flex justify-between">
             {isMenuOpen && (
