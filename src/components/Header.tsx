@@ -22,11 +22,9 @@ export const Header = () => {
     <header className="max-w-[var(--max-width)] m-auto pt-16 pb-36 px-[var(--mobile-padding)] md:px-[var(--tablet-padding)] lg:px-[var(--side-padding)] bg-[url(../assets/images/mobile/image-hero.jpg)] md:bg-[url(../assets/images/desktop/image-hero.jpg)] bg-cover bg-no-repeat">
       <div className="flex justify-between">
         <div>
-          {!isMenuOpen && (
             <a href="#" aria-label="Home Page">
               <img src="../assets/images/logo.svg" alt="" />
             </a>
-          )}
         </div>
         <div className="text-white font-normal hidden md:block">
           <ul className="flex gap-10">
